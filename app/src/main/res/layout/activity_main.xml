@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#5EB3D8"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_browser"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:text="Web Browser"
+        android:textSize="16dp"
+        android:textColor="#FC2"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="261dp" />
+
+    <Button
+        android:id="@+id/bt_map"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_margin="25dp"
+        android:text="MAP"
+        android:textSize="20dp"
+        android:textColor="#FC2"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/bt_msg"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_margin="25dp"
+        android:text="Send Message"
+        android:textSize="16dp"
+        android:textColor="#FC2"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/bt_call"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_margin="25dp"
+        android:text="Call"
+        android:textSize="19dp"
+        android:textColor="#FC2"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/bt_alarm"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_margin="25dp"
+        android:text="Open alarm"
+        android:textSize="17dp"
+        android:textColor="#FC2"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
